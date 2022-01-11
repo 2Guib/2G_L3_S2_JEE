@@ -1,0 +1,8 @@
+/workspace/*/.gitignore
+/workspace/.sonarlint/
+*.classpath
+*/.project/*
+*/.gitignore
+/workspace/*/.project
+/workspace/*/.settings
+*.DS_Store
