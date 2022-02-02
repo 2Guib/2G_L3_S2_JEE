@@ -9,4 +9,13 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+  	<servlet-name>Bonjour</servlet-name>
+  	<servlet-class>difs.Bonjour</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Bonjour</servlet-name>
+  	<url-pattern>/bonjour</url-pattern>
+  </servlet-mapping>
 </web-app>
