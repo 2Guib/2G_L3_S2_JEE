@@ -1,0 +1,17 @@
+/* CSS Document */
+body {
+	background-color : #1A535C;
+    color: #F7FFF7;
+    text-align:center;
+    padding:35px; }
+  
+h1{
+	font-size: 25px;
+	color : #4ECDC4;
+}
+
+b{
+	font-size: 20px;
+	font-style: italic;
+	color : #FF6B6B;
+}
