@@ -19,6 +19,18 @@
   	<description></description>
   	<servlet-class>difs.biblio.controller.Affiche</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Ajouter</servlet-name>
+  	<display-name>Ajouter</display-name>
+  	<description></description>
+  	<servlet-class>difs.biblio.controller.Ajouter</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Creer</servlet-name>
+  	<display-name>Creer</display-name>
+  	<description></description>
+  	<servlet-class>difs.biblio.controller.Creer</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>IndexServlet</servlet-name>
   	<url-pattern>/IndexServlet</url-pattern>
@@ -26,5 +38,13 @@
   <servlet-mapping>
   	<servlet-name>Affiche</servlet-name>
   	<url-pattern>/Affiche</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ajouter</servlet-name>
+  	<url-pattern>/Ajouter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Creer</servlet-name>
+  	<url-pattern>/Creer</url-pattern>
   </servlet-mapping>
 </web-app>
