@@ -4,14 +4,27 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <listener>
+  	<listener-class>difs.biblio.controller.ContextListener</listener-class>
+  </listener>
   <servlet>
   	<servlet-name>IndexServlet</servlet-name>
   	<display-name>IndexServlet</display-name>
   	<description></description>
   	<servlet-class>difs.biblio.controller.IndexServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Affiche</servlet-name>
+  	<display-name>Affiche</display-name>
+  	<description></description>
+  	<servlet-class>difs.biblio.controller.Affiche</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>IndexServlet</servlet-name>
   	<url-pattern>/IndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Affiche</servlet-name>
+  	<url-pattern>/Affiche</url-pattern>
   </servlet-mapping>
 </web-app>
