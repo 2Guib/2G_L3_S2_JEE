@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Vue</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<h1 th:text="${message}"></h1>
+	<table>
+		<thead>
+			<tr>
+				<td>Titre</td>
+				<td>Auteur</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="livre : ${livres}">
+				<td th:text="${livre.titre}"></td>
+				<td th:text="${livre.auteur}"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
